@@ -6,8 +6,8 @@ app.get('/', (_,res)=>{
     res.send("Working !!")
 })
 
-app.get('/about', (_,res)=>{
-    res.send("About endpoint...")
+app.get('/new', (_,res)=>{
+    res.send("New endpoint...")
 })
 
 app.listen(3001, ()=>{
